@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(44, 41, 41);
+}
+#contact {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px; 
+    scroll-margin-top: 100px; 
+}
+
+#C {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#F {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.contact-form-container {
+    background-color: rgb(70, 69, 68);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 39%;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+#contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* margin-left: 200px; */
+}
+
+label {
+    margin-bottom: 5px;
+    color: #8a8888;
+}
+
+textarea,
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4a3f3f;
+    border-radius: 4px;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e3be04;
+}
+
+#gender{
+    display: flex;
+    gap: 5px;
+    margin-left: 30px;
+}
+#Tech{
+    display: flex;
+    gap: 5px;
+    margin-left: 30px;
+}
+#course{
+    background-color: transparent;
+    color: #aba5a5;
+}
+#btn{
+    background-color: orange;
+    margin-left: 100px;
+    width: 50%;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#btn:hover {
+    background-color: rgb(237, 182, 79); 
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="contact">
+        <div id="C">
+            <div id="F">
+                <div class="contact-form-container">
+                    <h1>VALIDATION</h1>
+                    <form id="contactForm" onsubmit="return validateForm()" action="" method="get">
+                        <label for="name">Name:</label>
+                        <input type="text" id="namee" name="namee"><br>
+    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br>
+                    
+                        <label for="name">Gender:</label><br>
+                        <div id="gender">
+                            <label for="female">Female:</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="male">Male:</label>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="other">Other:</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                        </div>
+
+                        <label for="Tech">Technologies:</label><br>
+                        <div id="Tech">
+                            <label for="html">HTML:</label>
+                            <input type="checkbox" id="html" name="Tech[]" value="html">
+                            <label for="css">CSS:</label>
+                            <input type="checkbox" id="css" name="Tech[]" value="css">
+                            <label for="java">Java:</label>
+                            <input type="checkbox" id="java" name="Tech[]" value="java">
+                            <label for="python">Python:</label>
+                            <input type="checkbox" id="python" name="Tech[]" value="python">
+                        </div>
+
+                        <button type="submit" id="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
+   
+   <script src="script1.js"></script>
+</body>
+</html>
